@@ -1,0 +1,38 @@
+ion-content {
+    --background:  linear-gradient(to bottom, #11998E, #38EF7D);
+}   
+
+#logo {
+  margin: 8px;
+}
+
+#text-white {
+  color: white;
+  margin-top: -10px;
+}
+
+#img-principal {
+  margin: 4px;  
+  margin-right: 20px;
+}
+
+.margem-texto {
+  margin-left: 30px;
+}
+
+#txt-telainicial {
+  color: white;
+  margin-left: 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+ion-button {
+  --background: #F2C94C;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  width: 240px;
+  height: 81px;
+  margin-left: 20%;
+}

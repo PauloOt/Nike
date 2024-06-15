@@ -1,0 +1,92 @@
+ion-content {
+    --background: rgb(255, 255, 255);
+}
+
+.container-header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 5px;
+}
+
+#nike-logo {
+    margin-top: -15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.background {
+    background-color: #d6d6d6;
+    margin: 10px;
+    width: 120px;
+    height: 150px;
+    border-radius: 16px;
+}
+
+#img {
+    margin-left: -10px;
+    margin-top: 25px;
+}
+
+.background:hover {
+    background-color: #FFF05E;
+}
+
+#nome-produto {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #144273;
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+p {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #144273;
+}
+
+#nome-produto:nth-of-type(2) {
+    padding-left: 40px;
+}
+
+.pe-da-pagina {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-top: -15px;
+    align-items: center;
+}
+.color {
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+}
+
+#icon {
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.color {
+    background-color: #144273;
+    margin-top: 6px;
+}
+.color:nth-of-type(2) {
+    background: linear-gradient(to bottom, #11998E, #38EF7D);
+}
+
+.padding {
+    padding-right: 140px;
+}
